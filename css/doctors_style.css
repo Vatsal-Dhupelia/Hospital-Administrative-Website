@@ -1,0 +1,52 @@
+html{
+    background: url('../img/doctors_bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 150px;
+    /* justify-content: center; */
+}
+.box1{
+    width: 29%;
+    height: 100px;
+    margin: 30px;
+}
+.box2{
+    width: 29%;
+    height: 100px;
+    margin: 5px;
+}
+.mainhead{
+    padding-left: 264px;
+    padding-top: 150px;
+}
+.head{
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background-color:rgba(59, 59, 59, 0.582) ;
+    width: 35%;
+    word-spacing: 5px;
+    line-height: 40px;
+    height: 119px;
+}
+a{
+    color: white;
+    padding: 5px 12px;
+    margin-top: 3px;
+    /* margin-right: 16px; */
+    background: rgba(29, 29, 29, 0.692);
+    font-size: 32px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+a:hover{
+    background: black; 
+}

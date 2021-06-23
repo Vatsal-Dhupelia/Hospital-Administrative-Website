@@ -1,0 +1,53 @@
+#navbar{
+    padding-right: 782px;
+    height: 500px;
+    flex-direction: column;
+}
+#logo{
+    padding-left: 700px;
+}
+#navigation{
+    padding-left: 970px;
+    padding-right: 209px;
+}
+#logo img {
+    height: 150px;
+    width: 185px;
+}
+#heading h1 {
+    padding-left: 700px;
+    font-size: 60px;
+}
+/* #navigation{
+    border-radius: 10px;
+} */
+#navbar ul li a {
+    padding: 5px 11px;
+}
+#navbar ul li {
+    font-size: 29px;
+}
+#container {
+    width: fit-content;
+}
+.abt-us{
+    flex-direction: column;
+}
+.image img {
+    padding-left: 342px;
+    height: 347px;
+    width: 311px;
+}
+.abt-us{
+    width: 100%;
+}
+.abt-head {
+    width: fit-content;
+    /* padding-left: 409px; */
+}
+.abt-head h1 {
+    font-size: 33px;
+}
+#slide1{
+    padding-left: 55px;
+}

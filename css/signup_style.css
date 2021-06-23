@@ -1,0 +1,93 @@
+html{
+    background-image: url(../img/login_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.form{
+    padding-top: 80px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formdata{
+    height: 500px;
+    width: 430px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.error{
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success{
+    background: #d4edda;
+    color: #40754c;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.welcome h1{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.radio2{
+    padding-left: 70px;
+}
+.form-grp{
+    padding: 5px;
+}
+.form-grp label{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+.form-grp input{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.form-grp input[type=text]{
+    width: 250px;
+}
+.form-grp input[type=password]{
+    width: 250px;
+}
+.form-grp input[type=radio] {
+    border: 0px;
+}
+.form-btn{
+    padding-top: 17px;
+}
+.form-grp button{
+    padding: 7px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
